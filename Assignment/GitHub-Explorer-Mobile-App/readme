@@ -1,0 +1,49 @@
+React Native Project - README
+
+Getting Started
+
+Follow these steps to set up and run the project:
+
+1. Start the Metro Server
+
+Metro is the tool that bundles your JavaScript code for React Native. To start it, open a terminal in the project directory and run:
+
+npm start
+
+Leave this terminal running while working on the app.
+
+2. Run the App
+
+Open a new terminal in the project directory:
+
+For Android:
+
+npm run android
+
+3. Edit the App
+
+Open the App.tsx file in your preferred code editor.
+
+Make your changes.
+
+Refresh the app to see updates:
+
+Android: Press R twice in the terminal or use the Developer Menu (Ctrl + M for Windows/Linux or Cmd + M for macOS).
+
+4. Environment Variables
+
+To use GitHub API features:
+
+Create a .env file in the project directory.
+
+Add your GitHub personal access token:
+
+GITHUB_TOKEN=your_personal_access_token
+
+5. Testing the App on Android Devices
+
+If you want to test the app on a physical Android device:
+
+Build an APK using Gradle or Android Studio.
+
+Install the APK on your device.
